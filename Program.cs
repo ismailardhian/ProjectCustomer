@@ -68,7 +68,7 @@ namespace ProjectCustomer
             Console.Write("Nama Customer : ");
             customer.Nama = Console.ReadLine();
             Console.Write("Total Piutang  : ");
-            customer.Utang = Convert.ToInt32(Console.ReadLine());
+            customer.Utang = double.Parse(Console.ReadLine());
             daftarCustomer.Add(customer);
             Console.WriteLine("\nTekan ENTER untuk kembali ke menu");
             Console.ReadKey();
